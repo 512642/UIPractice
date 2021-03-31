@@ -8,7 +8,7 @@ using UnityEngine;
 public class AudioManager : MonoBehaviour
 {
 
-	public bool onOff;
+	public bool on;
 
 	public bool n = true;
 	
@@ -79,7 +79,7 @@ public class AudioManager : MonoBehaviour
 	s.source.volume = volume;
 	s.volume = volume;
 
-	/*if (toggle = true)
+	/*if (toggle.isOn == true)
 	{
 		n=n;
 		print ("on");
